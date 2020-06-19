@@ -21,11 +21,11 @@ If you want to add the motor controller, in addition to the previous components 
 In this version, you don't need the MMOS Mosfets
 
 ## Shema
-![Shema](img/shema0.png)
-*Simple shema, for a simple circuit without the bluetooth*
-![ShemaComplete](img/shema1.png)
-*Complete shema of the V1 of the system*
-![Shema of the system with a Digital Motor controller](img/shema2.png)
-*Adding a Digital Motor controller*
+
+|Without the bluetooth module|With Blutooth module, and the most simple version, don't have motor controller just turn it ON/OFF|With the motor controller and the bluetooth|
+|-----------|---------|----------|
+|![Shema Simple](img/shema0.png)|![Shema Complete](img/shema1.png)|![Shema with Digital Motor controller](img/shema2.png)|
+|*Simple shema, for a simple circuit without the bluetooth*|*Complete shema of the V1 of the system*|*Adding a Digital Motor controller*|
+
 ## Exemple
 > I'll put some picture of my actual prototype in few time.
