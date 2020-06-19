@@ -29,3 +29,7 @@ In this version, you don't need the MMOS Mosfets
 
 ## Exemple
 > I'll put some picture of my actual prototype in few time.
+
+|Arduino|Motor Controller|Boat|Floating Boat|Propeller|Rudder|
+|-------|-------|-------|-------|-------|------|
+|![Arduino]|![motorController]|||||
