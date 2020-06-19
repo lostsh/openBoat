@@ -1,6 +1,9 @@
 void run(){
-  digitalWrite(motorPin, HIGH);
+  run(255);
 }
 void stop(){
-  digitalWrite(motorPin, LOW);
+  analogWrite(motorPin, 0);
+}
+void run(int motorSpeed){
+  analogWrite(motorPin, motorSpeed);
 }

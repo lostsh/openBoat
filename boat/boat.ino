@@ -36,7 +36,7 @@ void setup() {
 
 void loop() {
   char incoming = '-';
-  zero();
+  //zero();
   
   if(Serial.available()){
     incoming = Serial.read();
@@ -46,24 +46,33 @@ void loop() {
   }
   
   switch(incoming){
-    case 'f':
+    case 'F':
       run();
       Serial.println("Run");
+      break;
+    case 'S':
+      stop();
+      Serial.println("Stop");
       break;
     case 's':
       stop();
       Serial.println("Stop");
       break;
-    case 'r':
+    case 'R':
       right();
       Serial.println("Turn Right");
       break;
-    case 'l':
+    case 'L':
       left();
       Serial.println("Turn Left");
-      break;/*
+      break;
+    case 'Z':
+      zero();
+      Serial.println("Reset Direction");
+      break;
+      /*
     default:
-      Serial.println("Unknow argument\nf -> run forward\ns -> stop\nr -> turn right\nl -> turn left");
+      Serial.println("Unknow argument\nF -> run forward\nS -> stop\nR -> turn right\nL -> turn left");
       break;*/
   }
   
